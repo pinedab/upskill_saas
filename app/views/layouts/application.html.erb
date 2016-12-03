@@ -19,7 +19,7 @@
               <span class="icon-bar"></span>
           </button>
        <!--   <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevMatch</a> -->
-              <%= link_to "/", class: "navbar-brand" do %>
+              <%= link_to root_path, class: "navbar-brand" do %>
               <i class="fa fa-group"></i>
                  DevMatch
               <% end %>
@@ -29,8 +29,8 @@
           <ul class="nav navbar-nav navbar-right">
         <!--    <li><a href="/about" >About</a></li> -->
         <!--    <li><a href="/contact" >Contact</a></li> -->
-                <li><%= link_to "About", "/about"%></li>
-                <li><%= link_to "Contact Us", "/contact"%></li>
+                <li><%= link_to "About", about_path %></li>
+                <li><%= link_to "Contact Us", "/contact" %></li>
                 
           </ul>
         </div> <!-- /.navbar-collapse -->
