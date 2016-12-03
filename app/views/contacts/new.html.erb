@@ -1,3 +1,39 @@
-<div class="text-center">
-    <h1>Contact Form</h1>
+<div class="container">
+        
+    <div class="text-center">
+        <h2 class="text-center">Contact Us</h2>
+    </div>
+    <!-- Rails way to do forms -->
+    <%= form_for "/contacts" do |f| %>
+            <%= f.label :name %>
+            <%= f.text_field :name %>
+            
+            <%= f.label :email %>
+            <%= f.text_field :email %>
+            
+            <%= f.label :comments %>
+            <%= f.text_area :comments %>
+            
+            <%= f.submit 'Submit' %>
+    <% end %>
+            
+    <!-- HTML way to do forms -->
+    <!--<form>-->
+    <!--    <label>Name</label>-->
+    <!--    <input type="text">-->
+    <!--    </br>-->
+        
+    <!--    <label>Email</label>-->
+    <!--    <input type="text">-->
+    <!--    </br>-->
+        
+    <!--    <label>Comments</label>-->
+    <!--    <input type="text">-->
+    <!--    </br>-->
+        
+    <!--    <input type="submit">-->
+    <!--    </br>-->
+        
+    <!--</form>-->
+
 </div>
