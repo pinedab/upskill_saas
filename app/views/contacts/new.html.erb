@@ -5,8 +5,9 @@
         </div>
         <!-- Rails way to do forms -->
         <div class="col-md-6 col-md-offset-3">
+          <%= flash[:notice] %>
             <div class="well">    
-                <%= form_for "/contacts" do |f| %>
+                <%= form_for @contact do |f| %>
                       <div class="form-group">
                         <%= f.label :name %>
                         <%= f.text_field :name, class: 'form-control' %>
