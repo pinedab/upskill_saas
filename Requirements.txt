@@ -1,0 +1,5 @@
+Memberships
+    see the Basic plan
+    see the pro plan
+    basic link should point to regular devise sign up
+    pro link should goto custon sign up form
