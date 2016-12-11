@@ -26,7 +26,6 @@ h1, h2, h3 {
 
 //bkgrd gradient
 .navbar, .home-callout{
-    /*Gradient provided by @_ighosh at uigradients.com*/
         background: #F1F2B5; /* fallback for old browsers */
         background: -webkit-linear-gradient(to left, #F1F2C6 , #135058); /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to left, #F1F2C6 , #135058); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -35,6 +34,11 @@ h1, h2, h3 {
 //nav styles
 .navbar {
     border: none;
+}
+
+.navbar-btn{
+    border: none;
+    letter-spacing: 0.08em;
 }
 
 .navbar-brand {
