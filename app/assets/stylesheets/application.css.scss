@@ -27,9 +27,9 @@ h1, h2, h3 {
 //bkgrd gradient
 .navbar, .home-callout{
     /*Gradient provided by @_ighosh at uigradients.com*/
-    background: #1D976C; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #1D976C , #93F9B9); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #1D976C , #93F9B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #F1F2B5; /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #F1F2C6 , #135058); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #F1F2C6 , #135058); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 //nav styles
@@ -59,7 +59,7 @@ h1, h2, h3 {
 .navbar-default .navbar-toggle{
     border: 2px solid white;
     &:hover{
-        background-color: #1DA96C;
+        background-color: #F1F2B5;
     }
 }
 /* css original
@@ -81,5 +81,5 @@ h1, h2, h3 {
 }
 
 .home-signup-links {
-    margin-top: 10px;
+    margin-top: 2em;
 }
