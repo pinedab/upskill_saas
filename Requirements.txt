@@ -1,5 +1,17 @@
 Memberships
-    see the Basic plan
-    see the pro plan
-    basic link should point to regular devise sign up
-    pro link should goto custon sign up form
+*    see the Basic plan
+*   see the pro plan
+*   basic link should point to regular devise sign up
+*   pro link should goto custon sign up form
+    
+Stripe Integration
+*   Modify user db so users have a stripe CUSTOMER TOKEN in the table
+*   JavaScript will stop the pro form from submitting then sends card info to Stripe.
+and thus return CARD TOKEN.
+                -Card token used to make shopping cart, but if held onto used to make 
+                recurring payments
+*   JavaScript take card token and the user fields and submit to rails app for
+validation. Rails will note if it is pro or basic plan
+*   Once vaildated, Rails will send user info (email, plan, id) and card token to 
+Stripe server and stripe will create a subscription and send back customer TOKEN - 
+Rails save that + user info to our db
